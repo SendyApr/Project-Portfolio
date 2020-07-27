@@ -53,7 +53,7 @@ $query = mysqli_query($koneksi,"SELECT * FROM tb_gambar");
                     <div class="col-5 align-self-center" style="padding-top: 160px;">
                         <h1 style="font-size: 45px" class="font-weight-bold">Hallo . . .</h1>
                         <h1 style="font-size: 70px" class="font-weight-bold">I AM SENDY</h1>
-                        <h1 style="font-size: 20px">WEB DEVELOPER AND DESIGNER</h1 style="font-size: 30px">
+                        <h1 style="font-size: 20px">UI AND UX DESIGNER</h1 style="font-size: 30px">
                     </div>
                     <div class="col-5 align-self-center">
                         <img class="img-fluid" src="img/me.png">
@@ -73,22 +73,22 @@ $query = mysqli_query($koneksi,"SELECT * FROM tb_gambar");
     				<br><br>
     			</div>
     		</div>
-    		<div class="row">
-                <?php 
-                    $no = 1;
-                    while($col = mysqli_fetch_array($query))
-                    {
-                ?>
-    			<div class="col-sm-4">    
-                    <div class="cc">
-                        <img class="img-fluid img-tamnel" src="image_view.php?id_gambar=<?php echo $col['id_gambar']; ?>">
-                        <p>-<?php echo $col['keterangan']; ?>-</p> 
-                        <a href="delete_gambar.php?id_gambar=<?php echo $col['id_gambar']; ?>" onclick="return confirm('Delete Image?')">-</a>  
-                    </div>  
-    			</div>
-                <?php
-                    }
-                ?>
+    <div class="row">
+        <?php 
+            $no = 1;
+            while($col = mysqli_fetch_array($query))
+            {
+        ?>
+    	<div class="col-sm-4">    
+            <div class="cc">
+                <img class="img-fluid img-tamnel" src="image_view.php?id_gambar=<?php echo $col['id_gambar']; ?>">
+                <p>-<?php echo $col['keterangan']; ?>-</p> 
+                <a href="delete_gambar.php?id_gambar=<?php echo $col['id_gambar']; ?>" onclick="return confirm('Delete Image?')">-</a>  
+            </div>  
+		</div>
+        <?php
+            }
+        ?>
             </div>
             <div class="row justify-content-center">
                 <div class="col-sm-2 text-center cus" style="margin-top: 50px">
