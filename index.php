@@ -115,7 +115,7 @@ $query = mysqli_query($koneksi,"SELECT * FROM tb_gambar");
     		<div class="row justify-content-center">
     			<div class="col-6">
     				<p style="text-align: center;">
-    					Hello, My name is Sendy Apriatna. I am a Develover and also a Designer. My experience has taught me that good design is not created in a moment of inspiration or a bubble. It is an iterative process rquiring collaboration between multiple teams and your end user. It is easy to get attached to inital design selution and forgo research and testing but this rarely works. First solution are often wrong because in the early stages it is hard to know enough about the problem you ar attempting to solve.
+    					Hello, My name is Sendy Apriatna. I am a UI and UX Designer. My experience has taught me that good design is not created in a moment of inspiration or a bubble. It is an iterative process rquiring collaboration between multiple teams and your end user. It is easy to get attached to inital design selution and forgo research and testing but this rarely works. First solution are often wrong because in the early stages it is hard to know enough about the problem you ar attempting to solve.
     				</p>
     			</div>
     		</div>
